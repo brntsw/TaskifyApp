@@ -1,12 +1,15 @@
 *.iml
 .gradle
 /local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
+
+# Ignore all .idea content by default
+.idea/*
+
+# But keep shared project config files (safe to commit)
+!.idea/codeStyles/
+!.idea/inspectionProfiles/
+!.idea/misc.xml
+
 .DS_Store
 /build
 /captures

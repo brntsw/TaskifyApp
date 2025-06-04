@@ -15,6 +15,7 @@ appcompat = "1.7.0"
 material = "1.12.0"
 mockk = "1.13.10"
 roomRuntime = "2.6.1"
+taskifyanalytics = "1.0.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -42,6 +43,7 @@ kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-c
 kotlinx-coroutines-test = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-test", version.ref = "kotlinxCoroutinesTest" }
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
 mockk = { module = "io.mockk:mockk", version.ref = "mockk" }
+taskifyanalytics = { module = "com.bruno:taskifyanalytics", version.ref = "taskifyanalytics" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

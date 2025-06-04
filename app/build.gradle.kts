@@ -70,4 +70,7 @@ dependencies {
 
     // Shared Utilities
     implementation(project(":shared:utils"))
+
+    // Analytics
+    implementation(libs.taskifyanalytics)
 }
